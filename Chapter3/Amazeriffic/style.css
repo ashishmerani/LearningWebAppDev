@@ -1,52 +1,126 @@
-body {
-  background: #f9e933;
-}
-
-header, main, footer {
-  min-width: 855px;
-}
-
-header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
-}
+body {}
 
 header {
-  background: white;
-  overflow: auto;
-}
-
-header h1 {
-  float: left;
-  width: 570px;
-}
-
-header nav {
-  float: right;
-  width: 285px;
+    min-width: 855px;
 }
 
 main {
-  background: white;
-  overflow: auto;
+    min-width: 855px;
+    overflow: scroll;
+}
+
+header .container,
+main .container {
+    max-width: 855px;
+    margin: auto;
+    padding: 15px;
+}
+
+header {
+    background: white;
+    overflow: auto;
+    border-bottom: solid;
+}
+
+header h1 {
+    font-family: sans-serif, serif, monospace;
+    font-size: 42px;
+    color: firebrick;
+    font-style: italic;
+    float: left;
+    width: auto;
+    padding: 20px 90px 30px 0px;
+}
+
+header nav {
+    float: right;
+    width: auto;
+    padding: 20px 20px 30px 30px;
+}
+
+h2 {
+    padding: 2px 2px 10px 1px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    padding: 20px 2px 10px 1px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h4 {
+    padding: 20px 2px 10px 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h5 {
+    padding: 20px 2px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    padding: 2px 2px 3px 5px;
+    font-size: 16px;
+}
+
+ul {
+    padding: 2px 2px 10px 5px;
+    font-size: 16px;
+}
+
+footer .footname {
+    font-weight: bold;
+    font-style: italic;
+    color: firebrick;
+}
+
+main {
+    background: white;
+    overflow: auto;
 }
 
 main .left {
-  float: left;
-  width: 570px;
+    float: left;
+    width: 570px;
 }
 
 main .right {
-  float: right;
-  width: 285px;
+    float: right;
+    width: auto;
+}
+
+footer {
+    min-width: 100%;
+    overflow: auto;
+    position: fixed;
+    bottom: 0px;
+    background: #f9e933;
+}
+
+footer .container {
+    max-width: 855px;
+    margin: auto;
+    padding: 15px;
 }
 
 footer .left {
-  float: left;
-  width: 570px;
+    float: left;
+    width: 570px;
 }
 
 footer .sitemap {
-  float: right;
-  width: 285px;
+    width: auto;
+}
+
+.first {
+    float: left;
+    margin-right: 40px;
+}
+
+.second {
+    float: right;
 }
