@@ -1,0 +1,41 @@
+{
+  "actors": [
+    {
+      "id": 1,
+      "name": "Bryan Cranston",
+      "starred": true
+    },
+    {
+      "id": 2,
+      "name": "Aaron Paul",
+      "starred": true
+    },
+    {
+      "id": 3,
+      "name": "Bob Odenkirk",
+      "starred": true
+    },
+    {
+      "id": 4,
+      "name": "Dean Norris",
+      "starred": false
+    },
+    {
+      "name": "Ashish Merani",
+      "starred": false,
+      "id": 5
+    },
+    {
+      "name": "Ashish",
+      "starred": false,
+      "id": 6
+    },
+    {
+      "name": "Ash",
+      "starred": false,
+      "id": 7
+    }
+    
+    
+  ]
+}
